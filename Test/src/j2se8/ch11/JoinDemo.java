@@ -13,7 +13,7 @@ public class JoinDemo
 				for(int i=0;i<10;i++)
 				{
 					System.out.printf("Sub Thread %d %n",i);
-					Thread.sleep(500);
+					Thread.sleep(1000);
 				}
 				System.out.println("Sub Thread Stop.");
 			}
