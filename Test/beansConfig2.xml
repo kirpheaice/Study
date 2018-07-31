@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="helloBean" class="onlyfun.caterpillar.HelloBean">
+		<property name="helloWord">
+			<value>Hello!JimLu!</value>
+		</property>
+	</bean>
+</beans>
