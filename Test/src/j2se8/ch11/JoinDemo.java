@@ -10,7 +10,9 @@ public class JoinDemo
 			try
 			{
 				System.out.println("Sub Thread Start.");
-				for(int i=0;i<10;i++)
+				System.out.printf("Thread Group:%s %n",Thread.currentThread().getThreadGroup().getName());
+				
+				for(int i=0;i<5;i++)
 				{
 					System.out.printf("Sub Thread %d %n",i);
 					Thread.sleep(1000);
