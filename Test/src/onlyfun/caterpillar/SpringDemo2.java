@@ -1,7 +1,7 @@
 package onlyfun.caterpillar;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
+//import org.springframework.context.ApplicationContext;
+//import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class SpringDemo2
 {
@@ -9,9 +9,9 @@ public class SpringDemo2
 	{
 		try
 		{
-			ApplicationContext context=new FileSystemXmlApplicationContext("beansConfig2.xml");
-    		HelloBean hello=(HelloBean) context.getBean("helloBean");
-    		System.out.println(hello.getHelloWord());
+//			ApplicationContext context=new FileSystemXmlApplicationContext("beansConfig2.xml");
+//    		HelloBean hello=(HelloBean) context.getBean("helloBean");
+//    		System.out.println(hello.getHelloWord());
 		}
 		catch(Exception e)
 		{
