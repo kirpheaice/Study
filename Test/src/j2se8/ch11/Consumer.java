@@ -17,6 +17,8 @@ public class Consumer implements Runnable
 		{
 			try
 			{
+				System.out.println("Thread[C],b4 Sleep(5000)");
+				Thread.sleep(5000);
 				clerk.getProduct();
 			}
 			catch(Exception e)

@@ -17,6 +17,8 @@ public class Producer implements Runnable
 		{
 			try
 			{
+				System.out.println("Thread[P],b4 Sleep(10000)");
+				Thread.sleep(10000);
 				clerk.setProduct(i);
 			}
 			catch(Exception e)
