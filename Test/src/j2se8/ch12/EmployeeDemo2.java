@@ -19,6 +19,10 @@ public class EmployeeDemo2
 			new Employee("John",35,Gender.Male),
 			new Employee("Jessie",40,Gender.Female)
 		);
+		
+		List<Integer> numbers=Arrays.asList(1,2,3,4,5,6,7,8,9);
+//		numbers.stream().forEach(System.out::println);
+		numbers.parallelStream().forEachOrdered(System.out::println);
 
 		int sum=employees.stream()
 				.filter(e->e.getGender().equals(Gender.Female))
