@@ -22,7 +22,9 @@ dependencies
     api 'org.apache.commons:commons-math3:3.6.1'
     
     compile "org.springframework:spring-context:${springVersion}"
+    compile "org.springframework:spring-jdbc:${springVersion}"
 	compile("org.aspectj:aspectjweaver:${aspectJVersion}")
+	compile("com.h2database:h2:${h2Version}")
 	
 	testCompile "junit:junit:${junitVersion}"
 	testCompile "org.mockito:mockito-core:${mockitoVersion}"
